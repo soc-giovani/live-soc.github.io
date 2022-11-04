@@ -49,10 +49,10 @@
                 <li class="breadcrumb-item active" aria-current="page">Salud financiera para tu empresa</li>
             </ol>
             </nav>
-            <p><strong>Invitados:</strong> Karem Figueroa, Directora Nacional de Crédito Empresarial y Edgar Lazcano, Director Comercial de Hey Banco.</p>
-            <p><strong>Fecha de emision:</strong> 19 de Octubre 2022</p>
-            <p><strong>Hora de emision:</strong>  7:00</p>
-            <p><strong>Descripción:</strong> ¿Cómo impulsar la salud financiera para tu empresa a través de un crédito empresarial? Esta pregunta te la responde Laura Montoya Directora Ejecutiva Comercial SOC y Edgar Lazcano, Director Comercial de Hey Banco.</p>
+            <p><strong class="color-encab">Invitados:</strong> Karem Figueroa, Directora Nacional de Crédito Empresarial y Edgar Lazcano, Director Comercial de Hey Banco.</p>
+            <p><strong class="color-encab">Fecha de emision:</strong> 19 de Octubre 2022</p>
+            <p><strong class="color-encab">Hora de emision:</strong>  7:00</p>
+            <p><strong class="color-encab">Descripción:</strong> ¿Cómo impulsar la salud financiera para tu empresa a través de un crédito empresarial? Esta pregunta te la responde Laura Montoya Directora Ejecutiva Comercial SOC y Edgar Lazcano, Director Comercial de Hey Banco.</p>
         </div>
         <div class="container text-center">
             <h2 style="text-align: center; margin-bottom: 35px;">Otras conferencias que te pueden interesar</h2>    
@@ -138,8 +138,9 @@
 
       <style>
         :root{
-            --verde-soc: #4ED176;
+            --verde-soc: #52DEFF;
             --azul-soc: #006D4E;
+            --encabezdo:#4ED176;
             --boton: #f1f2f7;
             --boton-seccecionado:#d8f5fd;
             --texto-color: #006D4E;
@@ -153,15 +154,18 @@
             font-weight: normal;
             font-style: normal;
             font-display: swap;
-        }
+        } 
         body{ 
-            font-family: var(--font-family-circular-Book);
+        font-family: var(--font-family-circular-Book);
         }
         h2{
-            color: var(--azul-soc);
+            color: var(--encabezdo);
+        }
+        .color-encab{
+            color: var(--encabezdo);
         }
         .card-title{
-            color: var(--azul-soc);
+            color: var(--encabezdo);
             text-align: start;
         }
         .card-text{
