@@ -164,7 +164,17 @@
             --boton: #f1f2f7;
             --boton-seccecionado:#d8f5fd;
             --texto-color: #006D4E;
+            --font-family-circular-Book: 'CircularXX-Book';
         }
+        /*------Font-------*/
+        @font-face {
+            font-family: 'CircularXX-Book';
+            src: url('/fonts/CircularXX-Book.otf') format('opentype'),
+                url('/fonts/CircularXX-Book.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }           
         /*--
         :root{
             --verde-soc: #4aa84f;
@@ -173,7 +183,9 @@
             --boton-seccecionado:#d8f5fd;
             --texto-color: #40516f;
         }-*/
-        body{ font-family: 'Museo Sans', 'Montserrat', 'Muli', sans-serif;}
+        body{ 
+    font-family: var(--font-family-circular-Book);
+        }
         h2{
             color: var(--azul-soc);
         }
