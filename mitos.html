@@ -11,7 +11,7 @@
       <div class="content">
         <div class="row" style="margin: 20px 35px;">
             <div class="col-12 logo-soc">
-               <a href="index.html"> <img href="index.html" style="width: 150px; text-align: center;" src="img/logo-soc.jpg"></a>
+               <a href="index.html"> <img href="index.html" style="width: 150px; text-align: center;" src="img/soc-logo.png"></a>
             </div> <br> 
             <div class="col-12 titulo-video" style="margin-top: 25px;">
                 <h2>Mitos y realidades del seguro de auto</h2>
@@ -117,11 +117,11 @@
 
       <style>
         :root{
-            --verde-soc: #4aa84f;
-            --azul-soc: #015694;
+            --verde-soc: #4ED176;
+            --azul-soc: #006D4E;
             --boton: #f1f2f7;
             --boton-seccecionado:#d8f5fd;
-            --texto-color: #40516f;
+            --texto-color: #006D4E;
         }
         body{ font-family: 'Museo Sans', 'Montserrat', 'Muli', sans-serif;}
         h2{
@@ -178,16 +178,28 @@
         }
 
         .video{
-            height: 780px;
+            height: 670px;
+            width: 1200px;
+            margin: auto;
         }
         @media (max-width: 430px){
             .boton {width: 230px !important;}
             .video {height: 190px !important;}
         };
+
+        @media (min-width: 430px){
+            .boton {width: 230px !important;}
+            .video {height: 190px !important;}
+        };
         @media (max-width: 768px) {
+        .video{height: 500px !important;}   
+            .boton {width: 230px !important;}      
+        };
+        @media (min-width: 768px) {
+            .boton {width: 230px !important;}
         .video{height: 500px !important;}         
         };
-        @media (max-width: 1024px) {
+        @media (min-width: 1024px) {
             .video {height: 500px !important;}
         };
         @media (max-width: 1024px) {
